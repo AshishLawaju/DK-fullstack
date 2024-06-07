@@ -1,0 +1,24 @@
+/* ExpertSlider.module.css */
+  /* .slickSlider {
+    margin: 0 -15px;
+  }
+  .slickSlide {
+    padding: 10px;
+    background-color: red;
+    text-align: center;
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+  */
+
+/* ExpertSlider.module.css */
+.slickSlider {
+  margin: 0 -15px; /* Adjust to create space around the entire slider */
+}
+
+.slickSlide {
+  padding: 4px;
+  /* background-color: red; */
+  text-align: center;
+  margin: 0 4px; /* Horizontal margin to create space between slides */
+}

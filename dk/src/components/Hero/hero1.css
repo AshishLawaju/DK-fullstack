@@ -1,0 +1,33 @@
+.slick-listx {
+    overflow: hidden;
+    position: relative;
+}
+
+.slick-listx::before,
+.slick-listx::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 7%;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.slick-listx::before {
+    left: 0;
+    background: linear-gradient(to right, rgb(247,247,247), rgba(247,247,247,0));
+}
+
+.slick-listx::after {
+    right: 0;
+    background: linear-gradient(to left, rgb(247,247,247), rgba(247,247,247));
+}
+
+.slick-slidex {
+    transition: opacity 0.5s ease-in-out;
+}
+
+.slick-currentx {
+    opacity: 1;
+}
